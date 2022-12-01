@@ -1,0 +1,169 @@
+* {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+body{
+  background: rgb(224,151,255);
+  background: radial-gradient(circle, rgba(224,151,255,1) 0%, rgba(128,0,255,1) 100%);
+}
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #000000;
+    height: 8vh;
+}
+
+.header{
+  color: rgb(255, 255, 255);
+}
+.name{
+    margin-left: 100px;
+}
+.Redes{
+    margin-left: 100px;
+    height: 100px;
+}
+
+.Sobre{
+    margin-left: 100px;
+    height: 200px;
+}
+
+.Sair{
+    float: right;
+    width: 100px;
+    margin-right: 20px;
+}
+a {
+    color: white;
+}
+
+.to-do {
+    margin-top: 40px;
+    width: 60%;
+  }
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+  
+  .header button {
+    position: absolute;
+    right: 18%;
+    margin-top: -30px;
+  } 
+  
+  .header i {
+    font-size: 22px;
+  } 
+  
+  .to-do {
+    margin-top: 40px;
+    width: 60%;
+  }
+  
+  .textInsert {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+  }
+  
+  .divInsert {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 6px 5px 10px 0px rgb(105, 74, 163);
+  }
+  
+  button {
+    width: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .bx-plus {
+    font-size: 30px;
+    margin-left: 10px;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .divLi {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px rgb(150, 63, 250);
+    display: flex;
+    align-items: center;
+  }
+  
+  .divLi span {
+    width: 80%;
+    color: rgb(255, 255, 255);
+  }
+  
+  .divLi input {
+    width: 10%;
+    outline: none;
+    accent-color: currentcolor;
+  }
+  
+  .divLi i {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  /*pra ficar responsivo*/
+  
+  @media (max-width: 775px) {
+    input {
+      width: 70%;
+    }
+  
+    .divInsert button {
+    width: 30%;
+    }
+  
+    i {
+      font-size: 30px;
+      padding: 0px;
+    }
+  }
+  
