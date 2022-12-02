@@ -10,8 +10,8 @@
   }
 
 body{
-  background: rgb(224,151,255);
-  background: radial-gradient(circle, rgba(224,151,255,1) 0%, rgba(128,0,255,1) 100%);
+  background: rgb(83,5,125);
+  background: linear-gradient(90deg, rgba(83,5,125,1) 0%, rgba(115,0,255,1) 35%, rgba(245,218,255,1) 100%);
 }
 header{
     
